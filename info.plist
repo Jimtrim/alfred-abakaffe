@@ -3,20 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.rolflekang.alfred.abakaffe</string>
+	<string>com.jimtrim.alfred.onlinekaffe</string>
 	<key>connections</key>
 	<dict>
 		<key>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</key>
 		<array/>
 	</dict>
-	<key>createdby</key>
+	<key>forkedfrom</key>
 	<string>Rolf Erik Lekang</string>
+	<key>createdby</key>
+	<string>Jim Frode Hoff</string>
 	<key>description</key>
-	<string>Asks the Moccamaster in the Abakus office if it its on.</string>
+	<string>Asks the the API if the current pot of coffe on Onlinekontoret is new or old</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>abakaffe</string>
+	<string>onlinekaffe</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -31,7 +33,7 @@
 				<key>script</key>
 				<string>/usr/bin/python ./alfred-abakaffe.py</string>
 				<key>title</key>
-				<string>Abakus kaffe</string>
+				<string>Online kaffe</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -56,6 +58,6 @@
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string>kaffe.abakus.no</string>
+	<string>http://draug.online.ntnu.no/coffee.txt</string>
 </dict>
 </plist>
